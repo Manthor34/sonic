@@ -5,6 +5,8 @@ body{
     background-color: antiquewhite;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(158, 85, 42);
 }
 
 nav{
@@ -39,7 +41,7 @@ footer{
     padding-right: 20px;
 }
 
-.titre-accueil{
+h1{
     text-align: center;
     padding: 50px;
     border-radius: 10px;
@@ -57,20 +59,17 @@ footer{
     min-width: 500px;
 }
 
-div{
+.item{
+    display: block;
+    flex: wrap;
+    width: 350px;
+    height: 500px;
     text-align: center;
     padding: 30px;
     background-color: rgb(233, 209, 180);
     margin: 30px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
-}
-
-.item{
-    display: block;
-    flex: wrap;
-    width: 350px;
-    height: 500px;
 }
 
 .photoaccueil{
@@ -111,4 +110,64 @@ a:visited{
     height: 300PX;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(228, 178, 118);
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+
+.contact{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+}
+
+input{
+    border: 0px;
+    border-radius: 10px;
+    outline: none;
+    height: 35px;
+    width: 1000px;
+}
+
+form{
+    background-color: rgb(233, 209, 180);
+    border-radius: 10px;
+    margin: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 5px 5px 15px rgb(39, 39, 39);
+
+}
+
+label{
+    display: flex;
+    justify-content: center;
+}
+
+.message{
+    height: 150px;
+    padding-top: 10px;
+}
+
+button{
+    align-self: center;
+    border-color: rgb(228, 178, 118);
+    border-radius: 5px;
+    width: 100px;
+}
+
+textarea{
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
